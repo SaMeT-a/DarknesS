@@ -15,7 +15,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  // Output the result in an element with id="demo"
+
   document.getElementById("sayaç").innerHTML = days + ":" + hours + ":"
   + minutes + ":" + seconds + "";
     
