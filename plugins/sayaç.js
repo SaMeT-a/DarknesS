@@ -1,5 +1,5 @@
 
-// Set the date we're counting down to
+// Powered By Samet
 var countDownDate = new Date("Nov 30, 2022 13:45:10").getTime();
 
 var x = setInterval(function() {
