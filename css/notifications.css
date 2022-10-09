@@ -1,0 +1,26 @@
+/*Not;div içerisine yapılır*/
+.notfiy {
+    width: 245px;
+    height: 60px;
+    background:rgba(0,0,0,.5);
+    position: relative;
+    animation-name: notify;
+    animation-duration: 4s;
+    text-align: center;
+    border-radius: 10px;
+    color:whitesmoke;  
+    padding: 5px;
+  }
+  
+  @keyframes notify {
+    0%   { left:-300px; top: 100px;}
+    25%  { left:0px; top:100px;}
+    30%  { left:0px; top:100px;}
+    35%  { left:0px; top:100px;}
+     40%  { left:0px; top:100px;}
+    45%  { left:0px; top:100px;}
+     50%  { left:0px; top:100px;}
+     50%  { left:0px; top:100px;}
+     50%  { left:0px; top:100px;}
+     100% { left:-350px; top:100px;}
+  }
